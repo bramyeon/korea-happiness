@@ -1,0 +1,135 @@
+Device: cuda
+Data directory: ./data
+Seed: 20244078
+Data name: korea-clean-shuffled
+./data/korea-clean-train.csv
+./data/korea-clean-shuffled-train.csv
+./data/korea-nocat-clean.csv
+./data/korea-nocat-clean-shuffled-test.csv
+./data/korea-nocat-clean-shuffled-train.csv
+./data/korea-clean.csv
+./data/korea-clean-shuffled.csv
+./data/korea-nocat-clean-shuffled.csv
+./data/korea-nocat-clean-test.csv
+./data/corr-korea-nocat-clean-shuffled.png
+./data/korea-clean-test.csv
+./data/korea-clean-shuffled-test.csv
+./data/korea-nocat-clean-train.csv
+Number of columns with NaN: 0
+Correlation matrix save path: ./data/corr-korea-clean-shuffled.png
+
+A1                  0.606700
+A2_1                0.536888
+A2_2                0.514075
+A2_3                0.457574
+A3_1                0.510473
+                      ...   
+SQ1_7_7.0           0.009620
+SQ1_8               0.109602
+SQ1_9              -0.019753
+year               -0.045233
+happiness_ladder    1.000000
+Name: happiness_ladder, Length: 299, dtype: float64
+
+==========
+
+Batch size: 32
+Number of input features: 299
+Lucky number: 42
+Epochs: 200
+Adam betas: 0.9, 0.999
+Criterion: MSE loss
+
+
+Training for korea-clean-shuffled dataset with features=[299, 42, 84, 168, 336, 672, 336, 168, 84, 42], lr=0.001, beta1=0.9, beta2=0.999, epochs=200
+Epoch: 20	Train Loss:  0.88	Test SSE:   27.25
+Epoch: 40	Train Loss:  0.84	Test SSE:   26.54
+Epoch: 60	Train Loss:  0.82	Test SSE:   26.44
+Epoch: 80	Train Loss:  0.81	Test SSE:   26.73
+Epoch: 100	Train Loss:  0.80	Test SSE:   26.88
+Epoch: 120	Train Loss:  0.79	Test SSE:   26.62
+Epoch: 140	Train Loss:  0.79	Test SSE:   26.02
+Epoch: 160	Train Loss:  0.78	Test SSE:   26.35
+Epoch: 180	Train Loss:  0.77	Test SSE:   25.83
+Epoch: 200	Train Loss:  0.77	Test SSE:   25.97
+
+Training for korea-clean-shuffled dataset with features=[299, 42, 84, 168, 336, 168, 84, 42], lr=0.001, beta1=0.9, beta2=0.999, epochs=200
+Epoch: 20	Train Loss:  0.89	Test SSE:   29.93
+Epoch: 40	Train Loss:  0.85	Test SSE:   28.34
+Epoch: 60	Train Loss:  0.83	Test SSE:   26.22
+Epoch: 80	Train Loss:  0.81	Test SSE:   26.22
+Epoch: 100	Train Loss:  0.81	Test SSE:   26.73
+Epoch: 120	Train Loss:  0.80	Test SSE:   27.66
+Epoch: 140	Train Loss:  0.79	Test SSE:   27.02
+Epoch: 160	Train Loss:  0.78	Test SSE:   26.28
+Epoch: 180	Train Loss:  0.78	Test SSE:   25.90
+Epoch: 200	Train Loss:  0.78	Test SSE:   29.08
+
+Training for korea-clean-shuffled dataset with features=[299, 42, 84, 168, 84, 42], lr=0.001, beta1=0.9, beta2=0.999, epochs=200
+Epoch: 20	Train Loss:  0.87	Test SSE:   27.84
+Epoch: 40	Train Loss:  0.85	Test SSE:   26.96
+Epoch: 60	Train Loss:  0.82	Test SSE:   26.96
+Epoch: 80	Train Loss:  0.82	Test SSE:   26.27
+Epoch: 100	Train Loss:  0.81	Test SSE:   25.84
+Epoch: 120	Train Loss:  0.80	Test SSE:   26.75
+Epoch: 140	Train Loss:  0.80	Test SSE:   25.94
+Epoch: 160	Train Loss:  0.79	Test SSE:   26.10
+Epoch: 180	Train Loss:  0.79	Test SSE:   26.99
+Epoch: 200	Train Loss:  0.79	Test SSE:   26.26
+
+Training for korea-clean-shuffled dataset with features=[299, 42, 84, 42], lr=0.001, beta1=0.9, beta2=0.999, epochs=200
+Epoch: 20	Train Loss:  0.87	Test SSE:   27.60
+Epoch: 40	Train Loss:  0.84	Test SSE:   26.81
+Epoch: 60	Train Loss:  0.82	Test SSE:   26.66
+Epoch: 80	Train Loss:  0.82	Test SSE:   26.15
+Epoch: 100	Train Loss:  0.81	Test SSE:   25.96
+Epoch: 120	Train Loss:  0.81	Test SSE:   26.08
+Epoch: 140	Train Loss:  0.80	Test SSE:   25.77
+Epoch: 160	Train Loss:  0.80	Test SSE:   25.91
+Epoch: 180	Train Loss:  0.80	Test SSE:   26.39
+Epoch: 200	Train Loss:  0.79	Test SSE:   26.21
+
+Training for korea-clean-shuffled dataset with features=[299, 42], lr=0.001, beta1=0.9, beta2=0.999, epochs=200
+Epoch: 20	Train Loss:  0.88	Test SSE:   27.48
+Epoch: 40	Train Loss:  0.86	Test SSE:   27.25
+Epoch: 60	Train Loss:  0.86	Test SSE:   27.29
+Epoch: 80	Train Loss:  0.86	Test SSE:   27.02
+Epoch: 100	Train Loss:  0.85	Test SSE:   27.03
+Epoch: 120	Train Loss:  0.85	Test SSE:   27.49
+Epoch: 140	Train Loss:  0.85	Test SSE:   27.87
+Epoch: 160	Train Loss:  0.85	Test SSE:   27.01
+Epoch: 180	Train Loss:  0.85	Test SSE:   27.58
+Epoch: 200	Train Loss:  0.85	Test SSE:   27.05
+
+SSE on testing dataset for korea-clean-shuffled with 10 layers:	25.9651
+SSE on testing dataset for korea-clean-shuffled with 8 layers:	29.0816
+SSE on testing dataset for korea-clean-shuffled with 6 layers:	26.2595
+SSE on testing dataset for korea-clean-shuffled with 4 layers:	26.2118
+SSE on testing dataset for korea-clean-shuffled with 2 layers:	27.0475
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: brywi(43322)
+Job name:  bryan
+Node list: ravg1145
+Job start: Sun Sep  8 17:27:15 CEST 2024
+Job end:   Sun Sep  8 18:38:48 CEST 2024
+Work dir:  /raven/u/brywi/korea-happiness
+Command:   /raven/u/brywi/korea-happiness/train.sh
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+12693613           bryan      1            36                             01:11:33      0:0
+  
+Maximum memory per node: 6.466123 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 6.0 %
+  
