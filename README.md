@@ -1,14 +1,13 @@
 # Korean Happiness Score: Analysis, Interpretation, and Modeling
 __SICSS-Korea 2024 Team Project Extension__  
-Bryan Nathanael Wijaya<sup>1,2</sup>, Inkoo Kang<sup>3</sup>, Ju Hee Jeung<sup>4,5,6</sup>, Kyungmin Lee<sup>7</sup>, and Yumi Park<sup>4</sup> *(in ABC order)*  
+Bryan Nathanael Wijaya<sup>1,2</sup>, Ju Hee Jeung<sup>3,4,5</sup>, Kyungmin Lee<sup>6</sup>, and Yumi Park<sup>3</sup> *(in ABC order)*  
 
 <sup>1</sup> School of Computing, Korea Advanced Institute of Science and Technology (KAIST)  
 <sup>2</sup> Center for Mathematical and Computational Sciences, Institute for Basic Science (IBS)  
-<sup>3</sup> Urban Systems, New York University (NYU)  
-<sup>4</sup> Korea Development Institute (KDI) School of Public Policy and Management  
-<sup>5</sup> UNESCO International Centre for Water Security and Sustainable Management (i-WSSM)  
-<sup>6</sup> Korea Water Resource Corporation (K-water)  
-<sup>7</sup> Energy and Environmental Policy, University of Delaware  
+<sup>3</sup> Korea Development Institute (KDI) School of Public Policy and Management  
+<sup>4</sup> UNESCO International Centre for Water Security and Sustainable Management (i-WSSM)  
+<sup>5</sup> Korea Water Resource Corporation (K-water)  
+<sup>6</sup> Energy and Environmental Policy, University of Delaware  
 
 ## Datasets
 
